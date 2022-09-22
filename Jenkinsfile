@@ -5,7 +5,7 @@ pipeline {
     }
     environment {
     registry = '414692480773.dkr.ecr.us-east-1.amazonaws.com/my_docker_image-maven-jenkins-project'
-    registryCredential = 'my_docker_image-maven-jenkins-project'
+    registryCredential = 'karole'
     dockerimage = ''
   }
     stages {
